@@ -160,6 +160,65 @@ const CreateDelivery = () => {
   );
 };
 
-
+const styles = {
+  container: {
+    padding: '2rem',
+    fontFamily: 'Poppins, sans-serif',
+    backgroundColor: '#fff',
+    minHeight: '100vh',
+  },
+  title: {
+    fontSize: '2.5rem',
+    margin: '0 0 1.5rem',
+    textAlign: 'center',
+    color: '#330D0F',
+  },
+  formContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    border: '2.5px solid #E1E1E1',
+    borderRadius: '0.75rem',
+    backgroundColor: '#FFFFFF',
+    padding: '2rem',
+    boxShadow: '0 3.75px 6px rgba(0, 2, 0, 0.9)',
+    maxWidth: '600px',
+    margin: '0 auto',
+  },
+  inputGroup: {
+    margin: '1rem 0',
+  },
+  label: {
+    display: 'block',
+    fontSize: '0.9375rem',
+    marginBottom: '0.5rem',
+    color: '#330D0F',
+    fontWeight: 'bold',
+  },
+  input: {
+    border: '2.5px solid #E1E1E1',
+    padding: '0.75rem',
+    width: '100%',
+    borderRadius: '0.75rem',
+    fontSize: '1rem',
+  },
+  error: {
+    marginTop: '0.5rem',
+    color: 'red',
+    fontSize: '0.9rem',
+  },
+  button: {
+    padding: '0.75rem 1.5rem',
+    backgroundColor: '#330D0F',
+    width: '100%',
+    height: '53px',
+    color: '#FFFFFF',
+    border: 'none',
+    borderRadius: '0.75rem',
+    fontSize: '1rem',
+    cursor: 'pointer',
+    marginTop: '2rem',
+    transition: 'background-color 0.3s ease',
+  },
+};
 
 export default CreateDelivery;
