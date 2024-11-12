@@ -58,6 +58,58 @@ const DeleteFeedback = () => {
   );
 };
 
-
+const styles = {
+  container: {
+    padding: '16px',
+    backgroundColor: '#fff',
+    minHeight: '100vh',
+    fontFamily: 'Poppins, sans-serif',
+  },
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    borderRadius: '20px', // Tailwind's rounded-xl
+    width: '600px',
+    padding: '32px',
+    margin: 'auto',
+    marginTop: '86px',
+    backgroundColor: '#FFFFFF',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 9.2)', // Adjust shadow here
+    fontFamily: 'Poppins, sans-serif',
+  },
+  heading: {
+    fontSize: '24px',
+    margin: '16px 0',
+    textAlign: 'center',
+    fontFamily: 'Poppins, sans-serif',
+    fontWeight: 'bold',
+    color: '#330D0F', // Header font color
+  },
+  buttonDelete: {
+    padding: '16px',
+    backgroundColor: '#330D0F', // Updated color
+    color: '#ffffff', // Tailwind's text-white
+    margin: '16px',
+    width: '100%',
+    border: 'none',
+    borderRadius: '48px', // Added border radius
+    cursor: 'pointer',
+    fontFamily: 'Poppins, sans-serif',
+    fontWeight: 'bold',
+  },
+  buttonCancel: {
+    padding: '16px',
+    backgroundColor: '#fff', // Updated color
+    color: '#330D0F', // Text color
+    margin: '16px',
+    width: '100%',
+    border: '2px solid #330D0F', // Border color
+    borderRadius: '48px', // Added border radius
+    cursor: 'pointer',
+    fontFamily: 'Poppins, sans-serif',
+    fontWeight: 'bold',
+  },
+};
 
 export default DeleteFeedback;
