@@ -81,7 +81,71 @@ const ShowFeedback = () => {
   );
 };
 
-
+const styles = {
+  page: {
+    backgroundColor: '#fff',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    padding: '2rem',
+    fontFamily: 'Poppins, sans-serif',
+    position: 'relative', // Required for absolute positioning of BackButton
+  },
+  header: {
+    position: 'absolute',
+    top: '1rem',
+    left: '1rem',
+  },
+  title: {
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    color: '#330D0F',
+    marginBottom: '2rem',
+    textAlign: 'center',
+  },
+  feedbackContainer: {
+    width: '80%',
+    maxWidth: '700px',
+    border: '3px solid #330D0F',
+    borderRadius: '12px',
+    backgroundColor: '#fff', // Changed background color to #F1EEDA
+    padding: '2rem',
+    boxShadow: '0 4px 8px rgba(0, 2, 0, 6.2)', // Added box shadow
+  },
+  feedbackItem: {
+    marginBottom: '1.5rem',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  label: {
+    fontSize: '16px',
+    color: '#330D0F',
+    fontWeight: 'bold',
+    marginBottom: '0.5rem',
+  },
+  value: {
+    fontSize: '16px',
+    color: '#330D0F', // Changed text color to #330D0F
+  },
+  message: {
+    fontSize: '16px',
+    color: '#330D0F', // Changed text color to #330D0F
+    whiteSpace: 'pre-wrap', // Allows text to wrap and preserve whitespace
+  },
+  editButton: {
+    marginTop: '2rem',
+    width: '200px',
+    padding: '0.5rem 1rem',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    color: '#F1EEDA',
+    backgroundColor: '#330D0F',
+    border: 'none',
+    borderRadius: '15px',
+    cursor: 'pointer',
+  },
+};
 
 
 export default ShowFeedback;
