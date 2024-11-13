@@ -1,0 +1,63 @@
+.event-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.5rem;
+    background-color: #F1EEDA; /* Background color */
+}
+
+.table-header {
+    border: 1px solid #330D0F; /* Table header border color */
+    padding: 0.3rem; /* Smaller padding for header */
+    text-align: center;
+    background-color: #330D0F; /* Table header background color */
+    color: white; /* Table header text color */
+}
+
+.table-data {
+    border: 1px solid #330D0F; /* Table border color */
+    padding: 0.3rem; /* Reduced padding for smaller table look */
+    text-align: center;
+    color: #330D0F; /* Table text color */
+}
+
+.table-row {
+    height: 1.5rem; /* Slightly larger than 1rem for better readability */
+}
+
+.event-image {
+    width: 1.5rem; /* Slightly smaller width */
+    height: 1.5rem; /* Slightly smaller height */
+    object-fit: cover;
+    border-radius: 0.3rem; 
+}
+
+.hidden-md {
+    display: none; /* Hide for mobile devices */
+}
+
+@media (min-width: 768px) {
+    .hidden-md {
+        display: table-cell; /* Show for medium and larger devices */
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Applying add-button style to view, edit, and delete buttons */
+.view-button, .edit-button, .delete-button {
+    background-color: #330D0F;
+    color: #FFFFFF;
+    padding: 0.3rem 1rem; /* Adjusted padding to make buttons smaller */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #218838; /* Hover effect */
+}
