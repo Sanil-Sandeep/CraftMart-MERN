@@ -51,6 +51,54 @@ const DeleteEvent = () => {
   );
 };
 
-
+const styles = {
+  container: {
+    padding: '16px',
+    backgroundColor: '#fff',
+    minHeight: '70vh',
+    fontFamily: 'Poppins, sans-serif',
+  },
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    borderRadius: '20px',
+    width: '600px',
+    padding: '32px',
+    margin: 'auto',
+    marginTop: '86px',
+    backgroundColor: '#FFFFFF',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.9)',
+  },
+  heading: {
+    fontSize: '24px',
+    margin: '16px 0',
+    textAlign: 'center',
+    fontWeight: 'bold',
+    color: '#330D0F',
+  },
+  buttonDelete: {
+    padding: '16px',
+    backgroundColor: '#330D0F',
+    color: '#ffffff',
+    margin: '16px',
+    width: '100%',
+    border: 'none',
+    borderRadius: '48px',
+    cursor: 'pointer',
+    fontWeight: 'bold',
+  },
+  buttonCancel: {
+    padding: '16px',
+    backgroundColor: '#F1EEDA',
+    color: '#330D0F',
+    margin: '16px',
+    width: '100%',
+    border: '2px solid #330D0F',
+    borderRadius: '48px',
+    cursor: 'pointer',
+    fontWeight: 'bold',
+  },
+};
 
 export default DeleteEvent;
