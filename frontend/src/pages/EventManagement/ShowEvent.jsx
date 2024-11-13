@@ -93,6 +93,84 @@ const ShowEvent = () => {
   );
 };
 
-
+// Updated Inline styles
+const styles = {
+  container: {
+    padding: '2rem',
+    fontFamily: "'Poppins', sans-serif",
+    backgroundColor: '#fff',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+     // Use backticks for template literals
+    backgroundSize: 'cover', // Ensure the background covers the entire area
+    backgroundPosition: 'center', // Center the background image
+  },
+  title: {
+    fontSize: '2.5rem',
+    margin: '1rem 0',
+    textAlign: 'center',
+    color: '#330D0F',
+    fontWeight: 'bold',
+  },
+  detailsWrapper: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    maxWidth: '900px',
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+    borderRadius: '1rem',
+    padding: '2rem',
+    border: '1px solid #E1E1E1',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.9)',
+  },
+  leftSide: {
+    flex: '1',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginRight: '2rem',
+  },
+  rightSide: {
+    flex: '2',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    padding: '1rem',
+  },
+  eventDetail: {
+    marginBottom: '1rem',
+    fontSize: '1rem',
+    color: '#333',
+  },
+  label: {
+    fontWeight: 'bold',
+    color: '#330D0F',
+  },
+  detailText: {
+    fontSize: '1rem',
+    color: '#555',
+  },
+  image: {
+    width: '300px',
+    height: '300px',
+    objectFit: 'cover',
+    borderRadius: '0.5rem',
+    border: '1px solid #E1E1E1',
+    marginTop: '1rem',
+  },
+  noImage: {
+    color: '#888',
+    fontSize: '1rem',
+    marginTop: '1rem',
+  },
+  zoomLink: {
+    fontSize: '1rem',
+    color: '#007bff',
+    textDecoration: 'underline',
+    cursor: 'pointer',
+  },
+};
 
 export default ShowEvent;
