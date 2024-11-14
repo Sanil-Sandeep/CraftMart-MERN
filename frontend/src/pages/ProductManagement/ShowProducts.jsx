@@ -78,6 +78,88 @@ const ShowProducts = () => {
   );
 };
 
-
+// Updated Inline styles
+const styles = {
+  container: {
+    padding: '2rem',
+    fontFamily: "'Poppins', sans-serif",
+    backgroundColor: '#F9F9F9', // Light gray background
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: '2.5rem',
+    margin: '1rem 0',
+    textAlign: 'center',
+    color: '#330D0F',
+    fontWeight: 'bold',
+  },
+  detailsWrapper: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    maxWidth: '900px',
+    width: '100%',
+    backgroundColor: '#FFFFFF',
+    borderRadius: '1rem',
+    padding: '2rem',
+    border: '1px solid #E1E1E1',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+  },
+  leftSide: {
+    flex: '1',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginRight: '2rem',
+  },
+  rightSide: {
+    flex: '2',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    padding: '1rem',
+  },
+  productName: {
+    fontSize: '2rem',
+    fontWeight: 'bold',
+    color: '#330D0F',
+    marginBottom: '1rem',
+    textAlign: 'center',
+  },
+  productDetail: {
+    marginBottom: '1rem',
+    fontSize: '1rem',
+    color: '#333',
+  },
+  label: {
+    fontWeight: 'bold',
+    color: '#330D0F',
+  },
+  detailText: {
+    fontSize: '1rem',
+    color: '#555',
+  },
+  price: {
+    color: '#28A745', // Green color for price
+    fontWeight: 'bold',
+    fontSize: '1.25rem',
+    marginTop: '1rem',
+  },
+  image: {
+    width: '300px',
+    height: '300px',
+    objectFit: 'cover',
+    borderRadius: '0.5rem',
+    border: '1px solid #E1E1E1',
+    marginTop: '1rem',
+  },
+  noImage: {
+    color: '#888',
+    fontSize: '1rem',
+    marginTop: '1rem',
+  },
+};
 
 export default ShowProducts;
