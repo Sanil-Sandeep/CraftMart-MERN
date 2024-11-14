@@ -183,6 +183,88 @@ const EditProduct = () => {
   );
 };
 
-
+const styles = {
+  container: {
+    padding: '2rem',
+    fontFamily: `'Poppins', sans-serif`,
+    backgroundColor: '#F8F9FA', // Light gray background for a clean look
+    minHeight: '100vh',
+  },
+  title: {
+    fontSize: '2rem',
+    margin: '0 0 1.5rem',
+    textAlign: 'center',
+    color: '#330D0F',
+    fontWeight: '700',
+  },
+  formContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    borderRadius: '8px',
+    backgroundColor: '#FFFFFF',
+    padding: '2rem',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    maxWidth: '500px',
+    margin: '0 auto',
+  },
+  inputGroup: {
+    margin: '1rem 0',
+  },
+  label: {
+    display: 'block',
+    fontSize: '1rem',
+    marginBottom: '0.5rem',
+    color: '#330D0F',
+    fontWeight: '600',
+  },
+  input: {
+    border: '1px solid #E1E1E1',
+    padding: '0.75rem',
+    width: '100%',
+    borderRadius: '4px',
+    fontSize: '1rem',
+  },
+  select: {
+    border: '1px solid #E1E1E1',
+    padding: '0.75rem',
+    width: '100%',
+    borderRadius: '4px',
+    fontSize: '1rem',
+  },
+  textarea: {
+    border: '1px solid #E1E1E1',
+    padding: '0.75rem',
+    width: '100%',
+    borderRadius: '4px',
+    fontSize: '1rem',
+    minHeight: '150px',
+  },
+  buttonContainer: {
+    display: 'flex',
+    justifyContent: 'center', // Centers the button horizontally
+    marginTop: '1.5rem', // Adds some space above the button
+  },
+  button: {
+    padding: '0.75rem',
+    backgroundColor: '#330D0F',
+    color: '#FFFFFF',
+    border: 'none',
+    borderRadius: '4px',
+    fontSize: '1rem',
+    cursor: 'pointer',
+    width: '100%', // Make the button span the full width of the form
+    transition: 'background-color 0.3s ease, box-shadow 0.3s ease',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+  },
+  errorMessage: {
+    marginTop: '0.5rem',
+    color: 'red',
+    fontSize: '0.875rem',
+  },
+  loading: {
+    textAlign: 'center',
+    padding: '1rem',
+  },
+};
 
 export default EditProduct;
