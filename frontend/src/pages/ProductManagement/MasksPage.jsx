@@ -66,6 +66,42 @@ const MasksPage = () => {
   );
 };
 
-
+// Inline styles
+const styles = {
+  pageContainer: {
+    backgroundColor: 'white',
+    padding: '1rem',
+    minHeight: '100vh',
+  },
+  searchContainer: {
+    position: 'relative',
+    marginBottom: '1.5rem',
+    maxWidth: '500px', // Increased maxWidth for a larger search bar
+    width: '100%',
+    display: 'flex',
+    alignItems: 'center',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+  },
+  searchIcon: {
+    position: 'absolute',
+    left: '15px', // Adjusted for larger padding
+    color: '#007bff',
+    fontSize: '1.5rem', // Slightly larger icon
+  },
+  searchInput: {
+    width: '100%',
+    padding: '0.75rem 2rem 0.75rem 50px', // Increased padding for a larger input field
+    borderRadius: '30px',
+    border: '1px solid #ccc',
+    outline: 'none',
+    fontSize: '1.1rem', // Slightly larger font size
+  },
+  productGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+    gap: '1rem',
+  },
+};
 
 export default MasksPage;
