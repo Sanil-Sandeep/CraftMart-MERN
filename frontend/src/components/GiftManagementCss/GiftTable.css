@@ -1,0 +1,102 @@
+.products-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.5rem;
+    background-color: #ffffff; /* Background color */
+}
+
+.table-header {
+    border: 1px solid #330D0F; /* Table header border color */
+    padding: 0.3rem; /* Smaller padding for header */
+    text-align: center;
+    background-color: #390b02; /* Table header background color */
+    color: white; /* Table header text color */
+}
+
+.table-data {
+    border: 1px solid #330D0F; /* Table border color */
+    padding: 0.3rem; /* Reduced padding for smaller table look */
+    text-align: center;
+    color: #330D0F; /* Table text color */
+}
+
+.table-row {
+    height: 1.5rem; /* Slightly larger than 1rem for better readability */
+
+}
+
+.product-image {
+    width: 100%; /* Set to a specific width percentage or fixed size */
+    max-width: 200px; /* Maximum width of the image */
+    height: 300px; /* Maintain aspect ratio */
+    object-fit: cover; /* Adjust how the image fits its container */
+}
+.search-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    box-shadow: 0 0 0 1px #ccc inset;
+}
+
+.hidden-md {
+    display: none; /* Hide for mobile devices */
+}
+
+@media (min-width: 768px) {
+    .hidden-md {
+        display: table-cell; /* Show for medium and larger devices */
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Applying add-button style to view, edit, and delete buttons */
+.view-button, .edit-button, .delete-button {
+    background-color: #330D0F;
+    color: #FFFFFF;
+    padding: 0.3rem 0.68rem; /* Adjusted padding to make buttons smaller */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover, .edit-button:hover, .delete-button:hover {
+    background-color: #FBBF24; /* Hover effect */
+}
+
+/* Existing styles... */
+
+.report-container {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  
+  .report-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #390b02;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .report-button:hover {
+    background-color:#390b02 ;
+  }
+  
