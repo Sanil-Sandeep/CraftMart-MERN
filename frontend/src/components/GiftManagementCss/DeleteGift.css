@@ -1,0 +1,53 @@
+/* DeleteProduct.css */
+
+.container {
+  padding: 16px;
+  background-color: #F1EEDA;
+  min-height: 80vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  width: 600px;
+  padding: 32px;
+  margin: auto;
+  margin-top: 86px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.heading {
+  font-size: 24px;
+  margin: 16px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #330D0F;
+}
+
+.button-delete {
+  padding: 16px;
+  background-color: #330D0F;
+  color: #ffffff;
+  margin: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 48px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-cancel {
+  padding: 16px;
+  background-color: #FFFFFF;
+  color: #330D0F;
+  margin: 16px;
+  width: 100%;
+  border: 2px solid #330D0F;
+  border-radius: 48px;
+  cursor: pointer;
+  font-weight: bold;
+}
