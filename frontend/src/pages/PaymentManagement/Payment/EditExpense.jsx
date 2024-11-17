@@ -174,6 +174,97 @@ function EditExpense() {
   )
 }
 
+const styles = {
+  container: {
+    padding: '2rem',
+    fontFamily: 'Poppins, sans-serif',
+    backgroundColor: '#fff',
+    minHeight: '110vh',
+  },
+  title: {
+    fontSize: '2.5rem',
+    margin: '0 0 2rem 0',
+    color: '#330D0F',
+    textAlign: 'center', // Center the title
+  },
+  formContainer: {
+    maxWidth: '500px',
+    margin: '0 auto',
+    backgroundColor: '#ffffff',
+    padding: '2rem',
+    borderRadius: '8px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 9.2)',
+  },
+  label: {
+    display: 'block',
+    fontSize: '1.1rem',
+    marginBottom: '.5rem',
+    color: '#330D0F',
+   fontWeight:'bold',
+  },
+  input: {
+    width: '100%',
+    padding: '.75rem',
+    fontSize: '1rem',
+    borderRadius: '10px',
+    border: '3px solid #330D0F',
+    boxSizing: 'border-box',
+  },
+  inputRow: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '1rem', // Adds space between the inputs
+  },
+  inputGroup: {
+    marginBottom: '1rem',
+    flex: 1, // Allows inputs to take equal space
+  },
+  textarea: {
+    width: '100%',
+    padding: '.75rem',
+    fontSize: '1rem',
+    borderRadius: '10px',
+    border: '3px solid #330D0F',
+    boxSizing: 'border-box',
+  },
+  error: {
+    color: 'red',
+    fontSize: '0.875rem',
+    marginTop: '.5rem',
+  },
+  button: {
+    backgroundColor: '#330D0F',
+    width: '430px',
+    color: '#fff',
+    padding: '.75rem 1.5rem',
+    border: 'none',
+    borderRadius: '4px',
+    fontSize: '1rem',
+    cursor: 'pointer',
+    marginTop: '50px',
+  },
+  cardTypeContainer: {
+    display: 'flex',
+    alignItems: 'center',
+  },
+  cardTypeLabel: {
+    display: 'flex',
+    alignItems: 'center',
+    marginRight: '1rem',
+  },
+  cardImage: {
+    width: '60px',
+    height: 'auto',
+    marginLeft: '0.5rem',
+  },
+  radio: {
+    marginRight: '0.5rem',
+  },
+  hr: {
+    border: '1px solid #ddd',
+    margin: '20px 0',
+  },
+};
 
 
 export default EditExpense;
