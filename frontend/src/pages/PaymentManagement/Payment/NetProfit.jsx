@@ -506,6 +506,175 @@ const NetProfit = () => {
   );
 };
 
+// CSS styles
+const styles = {
+  page: {
+    backgroundColor: '#fff',
+    minHeight: '130vh',
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    padding: '1rem',
+    fontFamily: 'Poppins, sans-serif',
+  },
+  container: {
+    width: '100%',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    fontFamily: 'Poppins, sans-serif',
+  },
+  header: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    color: '#330D0F',
+    fontWeight: 'bold',
+  },
+  buttonContainer: {
+    marginBottom: '100px',
+    marginTop: '30px',
+  },
+  buttonexpense: {
+    backgroundColor: '#330D0F',
+    color: '#F1EEDA',
+    width: '150px',
+    height: '50px',
+    padding: '10px 20px',
+    fontSize: '1rem',
+    fontWeight: 'bold',
+    fontFamily: 'Poppins, sans-serif',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    border: '2px solid #330D0F',
+    transition: 'background-color 0.3s ease, border-color 0.3s ease',
+    marginLeft: '300px',
+  },
+  buttonincome: {
+    backgroundColor: '#330D0F',
+    color: '#F1EEDA',
+    width: '150px',
+    height: '50px',
+    padding: '10px 20px',
+    fontSize: '1rem',
+    fontWeight: 'bold',
+    fontFamily: 'Poppins, sans-serif',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    border: '2px solid #330D0F',
+    transition: 'background-color 0.3s ease, border-color 0.3s ease',
+    marginLeft: '50px',
+  },
+  buttonprofit: {
+    backgroundColor: '#330D0F',
+    color: '#F1EEDA',
+    width: '150px',
+    height: '50px',
+    padding: '10px 20px',
+    fontSize: '1rem',
+    fontWeight: 'bold',
+    fontFamily: 'Poppins, sans-serif',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    border: '2px solid #330D0F',
+    transition: 'background-color 0.3s ease, border-color 0.3s ease',
+    marginLeft: '50px',
+  },
+  title: {
+    fontSize: '1.875rem',
+    margin: '2rem 0',
+  },
+  profitTitle: {
+    fontSize: '1.5rem',
+    margin: '1.5rem 0',
+    color: '#330D0F',
+  },
+  backButton: {
+    backgroundColor: '#330D0F',
+    color: '#F1EEDA',
+    padding: '0.5rem 1rem',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+  },
+  tablesContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    gap: '20px', // Space between tables
+    marginBottom: '2rem', // Space below the tables
+  },
+  tableWrapper: {
+    flex: 1, // Make tables take equal space
+    minWidth: '300px', // Optional: set a minimum width for better responsiveness
+  },
+  table: {
+    width: '100%',
+    borderSpacing: '0.5rem',
+    fontFamily: 'Poppins, sans-serif',
+    tableLayout: 'fixed',
+    color: '#330D0F',
+  },
+  th: {
+    borderTop: '3px solid #330D0F',
+    borderBottom: '3px solid #330D0F',
+    borderLeft: '3px solid #330D0F',
+    borderRight: '3px solid #fff',
+    backgroundColor: '#4A1416',
+    color: '#FFFFFF',
+    height: '3rem',
+    fontFamily: 'Poppins, sans-serif',
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+    textOverflow: 'ellipsis',
+  },
+  td: {
+    border: '3px solid #330D0F',
+    height: '2.8rem',
+    textAlign: 'center',
+    fontFamily: 'Poppins, sans-serif',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    backgroundColor: '#fff',
+  },
+  downloadButton: {
+    marginBottom: '10px',
+    backgroundColor: '#330D0F',
+    borderColor: '#330D0F',
+    color: '#fff', // Text color
+    padding: '0.5rem 1rem',
+    fontSize: '0.88rem',
+    fontWeight: 'bold',
+    borderRadius: '0.25rem',
+    cursor: 'pointer',
+    border: '2px solid #330D0F',
+    fontFamily: 'Poppins, sans-serif',
+    transition: 'background-color 0.3s, border-color 0.3s',
+  },
+  summary: {
+    marginBottom: '20px',
+  },
+};
 
+const totalPriceRowStyle = {
+  totalPriceLabel: {
+    border: '3px solid #330D0F',
+    borderRadius: '0.25rem',
+    textAlign: 'right',
+    fontWeight: 'bold',
+    padding: '0.75rem',
+    backgroundColor: '#330D0F',
+    fontFamily: 'Poppins, sans-serif',
+    color: '#FFFFFF',
+  },
+  totalPriceValue: {
+    border: '3px solid #330D0F',
+    borderRadius: '0.25rem',
+    textAlign: 'center',
+    backgroundColor: '#330D0F',
+    padding: '0.75rem',
+    fontWeight: 'bold',
+    fontFamily: 'Poppins, sans-serif',
+    color: '#FFFFFF',
+  },
+};
 
 export default NetProfit;
