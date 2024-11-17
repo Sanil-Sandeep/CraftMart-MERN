@@ -1,0 +1,76 @@
+header {
+    background-color: #330D0F;
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+}
+
+.search-login input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-login button {
+    background-color: #fff;
+    color: #330D0F;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #fff;
+    color: #330D0F;
+    border-radius: 7px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #fff; /* Background color on hover */
+    color: #330D0F; /* Text color on hover */
+}
+
+.cart-icon {
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    margin-left: 25px; /* Space between login button and cart icon */
+    margin-right: 10px;
+    cursor: pointer; /* Change cursor on hover */
+}
