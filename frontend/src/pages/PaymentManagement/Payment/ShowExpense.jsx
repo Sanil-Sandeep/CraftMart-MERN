@@ -90,6 +90,129 @@ const ShowExpense = () => {
   );
 };
 
-
+const styles = {
+  pageContainer: {
+    backgroundColor: '#fff',
+    minHeight: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    padding: '0 20px',
+  },
+  container: {
+    padding: '30px',
+    fontFamily: 'Arial, sans-serif',
+    minWidth: '650px',
+    backgroundColor: '#fff',
+    borderRadius: '10px',
+  },
+  title: {
+    fontSize: '30px',
+    margin: '30px 0',
+    textAlign: 'center',
+    color: '#222',
+  },
+  receipt: {
+    border: '1px solid #ccc',
+    borderRadius: '10px',
+    padding: '20px',
+    backgroundColor: '#fff',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 9.2)',
+  },
+  header: {
+    textAlign: 'center',
+    marginBottom: '30px',
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '10px',
+  },
+  companyName: {
+    fontSize: '32px',
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  receiptNumber: {
+    fontSize: '20px',
+    color: '#333',
+  },
+  details: {
+    paddingTop: '20px',
+  },
+  row: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    padding: '12px 0',
+    borderBottom: '1px solid #eee',
+  },
+  label: {
+    fontWeight: 'bold',
+    color: '#444',
+    flex: '1',
+    fontSize: '18px',
+  },
+  value: {
+    color: '#666',
+    flex: '2',
+    textAlign: 'right',
+    fontSize: '18px',
+  },
+  table: {
+    width: '100%',
+    borderCollapse: 'collapse',
+    marginTop: '20px',
+  },
+  tableHead: {
+    backgroundColor: '#e6e1e1',
+    color: '#330D0F',
+  },
+  tableHeader: {
+    border: '1px solid #ddd',
+    padding: '12px',
+    textAlign: 'left',
+    fontWeight: 'bold',
+  },
+  tableRow: {
+    borderBottom: '1px solid #ddd',
+  },
+  tableCell: {
+    border: '1px solid #ddd',
+    padding: '12px',
+    textAlign: 'left',
+  },
+  totalContainer: {
+    marginTop: '20px',
+    display: 'flex',
+    justifyContent: 'space-between',
+    fontSize: '18px',
+    fontWeight: 'bold',
+  },
+  totalLabel: {
+    color: '#444',
+  },
+  totalValue: {
+    color: '#666',
+  },
+  buttonContainer: {
+    marginTop: '50px',
+    display: 'flex',
+    justifyContent: 'space-around',
+  },
+  button: {
+    padding: '10px',
+    fontWeight: 'bold',
+    fontSize: '16px',
+    borderRadius: '40px',
+    cursor: 'pointer',
+    width: '187px', // Fixed width for consistency
+  },
+  deleteButton: {
+    backgroundColor: '#330D0F',
+    color: '#fff',
+    border: 'none',
+  },
+  editButton: {
+    backgroundColor: '#fff',
+    color: '#330D0F',
+    border: '5px solid #330D0F',
+  },
+};
 
 export default ShowExpense;
