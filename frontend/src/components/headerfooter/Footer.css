@@ -1,0 +1,59 @@
+footer {
+    background-color: #330D0F;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 0; /* Remove rounded corners */
+    box-shadow: none; /* Remove shadow */
+    background-color: transparent; /* Optional: remove background color */
+}
+
+
+/* Footer Social Media Icons */
+.social-media {
+    display: flex;
+    
+    gap: 15px; /* Adds space between the icons */
+    padding: 10px 0; /* Adds padding around the icons */
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-media img {
+    width: 30px; /* Set the width of the icons */
+    height: 30px; /* Set the height of the icons */
+}
+
+.social-media a:hover img {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+
+.footer-links, .legal-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a, .legal-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.powered-by {
+    text-align: center;
+    margin: 10px 0;
+}
