@@ -58,6 +58,62 @@ const AboutUs = () => {
     );
 };
 
-
+const styles = {
+    page: {
+        backgroundColor: '#fff',
+        minHeight: '130vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '2rem',
+        fontFamily: 'Poppins, sans-serif',
+    },
+    container: {
+        maxWidth: '800px',
+        backgroundColor: '#FFFFFF',
+        padding: '2rem',
+        borderRadius: '10px',
+        boxShadow: '0 3.75px 6px rgba(0, 2, 0, 0.46)',
+        fontFamily: 'Poppins, sans-serif',
+    },
+    title: {
+        fontSize: '2rem',
+        marginBottom: '1.5rem',
+        color: '#4A1416',
+        textAlign: 'center',
+    },
+    subtitle: {
+        fontSize: '1.5rem',
+        margin: '1.5rem 0 1rem',
+        color: '#4A1416',
+        fontWeight: 'bold',
+    },
+    text: {
+        fontSize: '1.125rem',
+        color: '#333',
+        lineHeight: '1.8',
+        marginBottom: '1.5rem',
+        textAlign: 'justify',
+    },
+    list: {
+        fontSize: '1.125rem',
+        color: '#333',
+        marginBottom: '1.5rem',
+        textAlign: 'justify',
+        paddingLeft: '1rem',
+    },
+    backButton: {
+        display: 'inline-block',
+        padding: '0.75rem 1.5rem',
+        backgroundColor: '#0284c7',
+        color: '#FFFFFF',
+        textDecoration: 'none',
+        borderRadius: '8px',
+        fontSize: '1rem',
+        marginTop: '2rem',
+        textAlign: 'center',
+        transition: 'background-color 0.3s ease',
+    },
+};
 
 export default AboutUs;
