@@ -27,36 +27,43 @@ In summary, transitioning to an online system will streamline operations, elevat
 
 ## Key Features
 
-- ### CraftMart Marketplace Product Management for Seamless Product Handling 
+### CraftMart Marketplace Product Management for Seamless Product Handling 
 
-The product management function is central to CraftMart's marketplace, allowing clients to efficiently manage their handmade goods and ensure a smooth customer experience. With this feature, clients have a user-friendly interface to add, update, and categorize their products, including details such as product images, descriptions, and prices. This function streamlines the process of organizing and presenting products, enhancing discoverability and customer engagement.
+- The product management function is central to CraftMart's marketplace, allowing clients to efficiently manage their handmade goods and ensure a smooth customer experience. With this feature, clients have a user-friendly interface to add, update, and categorize their products, including details such as product images, descriptions, and prices. This function streamlines the process of organizing and presenting products, enhancing discoverability and customer engagement.
 
- - ### Centralized Payment Management System
+<br>
 
-The payment management function provides a user-friendly interface for customers to easily submit payments, manage their payment details, and download e-receipts. It features a secure payment processing system that ensures customer data protection. Payment managers can track income in real-time, generate reports, and manage payment information efficiently. Additionally, an integrated feedback mechanism allows customers to rate their payment experience, contributing to continuous service improvement. With a cloud-based database for real-time updates, the system eliminates the need for manual record-keeping, ensuring accurate financial management and streamlined operations for all stakeholders.
+### Centralized Payment Management System
 
+- The payment management function provides a user-friendly interface for customers to easily submit payments, manage their payment details, and download e-receipts. It features a secure payment processing system that ensures customer data protection. Payment managers can track income in real-time, generate reports, and manage payment information efficiently. Additionally, an integrated feedback mechanism allows customers to rate their payment experience, contributing to continuous service improvement. With a cloud-based database for real-time updates, the system eliminates the need for manual record-keeping, ensuring accurate financial management and streamlined operations for all stakeholders.
 
- - ### Automated Shipping and Delivery Management for Efficient Order Fulfillment
+<br>
 
-The shipping and delivery management system supplements the marketplace by providing a dedicated delivery manager to oversee order fulfillment. Sellers and buyers can rely on the system to handle shipments. The shipping and delivery management function provides a user-friendly interface for customers to easily submit shipping and delivery details and manage their shipping and delivery details. Delivery managers can generate reports and manage shipping and delivery information efficiently.
+### Automated Shipping and Delivery Management for Efficient Order Fulfillment
 
+- The shipping and delivery management system supplements the marketplace by providing a dedicated delivery manager to oversee order fulfillment. Sellers and buyers can rely on the system to handle shipments. The shipping and delivery management function provides a user-friendly interface for customers to easily submit shipping and delivery details and manage their shipping and delivery details. Delivery managers can generate reports and manage shipping and delivery information efficiently.
 
-- ### Efficient Gift Voucher Management for CraftMart Marketplace
+<br>
 
-CraftMart's voucher system simplifies the process for sellers to create and distribute vouchers to customers, allowing quick redemption and validation of vouchers. The system supports various payment methods, enables real-time tracking of voucher usage, and integrates with financial systems for efficient transactions. This system aids in business decisions and streamlines the voucher process.
+### Efficient Gift Voucher Management for CraftMart Marketplace
 
+- CraftMart's voucher system simplifies the process for sellers to create and distribute vouchers to customers, allowing quick redemption and validation of vouchers. The system supports various payment methods, enables real-time tracking of voucher usage, and integrates with financial systems for efficient transactions. This system aids in business decisions and streamlines the voucher process.
 
-- ### Efficient Event Management for Seamless Coordination
+<br>
 
-The event management that we offer does away with the need to incorporate static content into the events, enabling the event managers to actively manage occurrences with ease. It is also easy to create, change, or delete events, and these changes will be made in the system right away. Each event is nested so that if the customer wants to attend any event, he or she gets a unique Zoom link which does not require any registration. The system also supports searching for events allowing the users to specify the event they want within specific parameters. There is increasing efficiency in the management of the event detail due to this easement of the processes of the users.
+### Efficient Event Management for Seamless Coordination
 
+- The event management that we offer does away with the need to incorporate static content into the events, enabling the event managers to actively manage occurrences with ease. It is also easy to create, change, or delete events, and these changes will be made in the system right away. Each event is nested so that if the customer wants to attend any event, he or she gets a unique Zoom link which does not require any registration. The system also supports searching for events allowing the users to specify the event they want within specific parameters. There is increasing efficiency in the management of the event detail due to this easement of the processes of the users.
 
-- ### Streamlined Return and Refund Management System
+<br>
 
-The 'Return and Refund Management System' makes the process of handling 'Customer Return Requests' easy. This user-friendly interface enables the customer to raise a request for a return, input product details, and upload damage images. Administrators verify the authenticity of requests and follow up on processing at each stage for time-bound and efficient disposal. Return managers can also generate reports and view trends for refining return policies that best suit customers.
+### Streamlined Return and Refund Management System
 
+-  The 'Return and Refund Management System' makes the process of handling 'Customer Return Requests' easy. This user-friendly interface enables the customer to raise a request for a return, input product details, and upload damage images. Administrators verify the authenticity of requests and follow up on processing at each stage for time-bound and efficient disposal. Return managers can also generate reports and view trends for refining return policies that best suit customers.
 
-- ### Comprehensive Feedback Management for CraftMart Marketplace
+<br>
 
-CraftMart’s feedback management system efficiently gathers and analyzes customer feedback to improve product quality and enhance the overall shopping experience. This system allows sellers to gain actionable insights, enabling them to make adjustments to their product offerings and improve customer satisfaction. By monitoring feedback trends, sellers can ensure continuous improvement in craftsmanship and service. The system helps create a feedback loop where customer input directly drives product and service enhancements, resulting in a better marketplace for both customers and sellers.
+### Comprehensive Feedback Management for CraftMart Marketplace
+
+- CraftMart’s feedback management system efficiently gathers and analyzes customer feedback to improve product quality and enhance the overall shopping experience. This system allows sellers to gain actionable insights, enabling them to make adjustments to their product offerings and improve customer satisfaction. By monitoring feedback trends, sellers can ensure continuous improvement in craftsmanship and service. The system helps create a feedback loop where customer input directly drives product and service enhancements, resulting in a better marketplace for both customers and sellers.
 
