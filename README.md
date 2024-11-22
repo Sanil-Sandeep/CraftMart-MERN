@@ -108,7 +108,23 @@ Thank you all for being a part of this journey!
 - Event report genaration
 
 
+
+
+## 🛠 Skills
+
+
+- Javascript
+- HTML
+- MongoDB
+- React
+- Node
+- Express
+- CSS
+  
 <br><br>
+
+
+
 
 
 
