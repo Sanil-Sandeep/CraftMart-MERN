@@ -90,3 +90,25 @@ Thank you all for being a part of this journey!
 
 - [@Sanil-Sandeep](https://github.com/Sanil-Sandeep)
 
+<br><br>
+
+## Features
+
+- E-Receipt Generation 
+- Income and Expense Tracking
+- Net Profit Calculation
+- Search Payments and Expenses
+- Product report genaration
+- Search products
+- Categorize products
+- Gift report genaration
+- Search gifts
+- Delevary report genaration
+- Feedback report genaration
+- Event report genaration
+
+
+<br><br>
+
+
+
