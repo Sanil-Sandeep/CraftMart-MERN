@@ -256,3 +256,34 @@ Here are some related projects
 [FeedBackManagement-CreaftMart-Mern](https://github.com/Sanil-Sandeep/Feedback-Management-CraftMart-MERN.git) 
 <br>
 [PaymentManagement-CreaftMart-Mern](https://github.com/Sanil-Sandeep/PaymentManagement-CraftMart-Mern.git)
+
+
+<br><br>
+
+## Run Locally
+
+<br>
+
+Clone the project
+
+```bash
+    https://github.com/Sanil-Sandeep/PaymentManagement-CraftMart-Mern.git
+```
+
+Go to the project directory
+
+```bash
+  cd backend
+```
+
+Install dependencies
+
+```bash
+  npm i cloudinary
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
