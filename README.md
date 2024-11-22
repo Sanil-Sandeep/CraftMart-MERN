@@ -67,3 +67,21 @@ In summary, transitioning to an online system will streamline operations, elevat
 
 - CraftMart’s feedback management system efficiently gathers and analyzes customer feedback to improve product quality and enhance the overall shopping experience. This system allows sellers to gain actionable insights, enabling them to make adjustments to their product offerings and improve customer satisfaction. By monitoring feedback trends, sellers can ensure continuous improvement in craftsmanship and service. The system helps create a feedback loop where customer input directly drives product and service enhancements, resulting in a better marketplace for both customers and sellers.
 
+
+<br><br>
+
+## Acknowledgements
+
+I would like to extend my deepest gratitude to everyone who supported the development of the CraftMart website.
+
+Firstly, I thank our mentors and professors for their valuable guidance, feedback, and insights, which greatly enhanced the design and functionality of this project. Their expertise was instrumental in creating a user-friendly and secure platform for our users.
+
+I also appreciate the open-source community, whose libraries and tools—such as React, Node.js, MongoDB, and Tailwind CSS—allowed us to bring CraftMart to life with robust and reliable features. Special thanks go to GitHub for providing an excellent platform to collaborate and manage our project effectively.
+
+Finally, I would like to thank all the beta testers and users of CraftMart. Your feedback was essential in refining the system and making it accessible and efficient. Your support motivates us to continue improving and expanding CraftMart for a better user experience.
+
+Thank you all for being a part of this journey!
+
+
+<br><br>
+
