@@ -238,5 +238,21 @@ Developing the CraftMart Marketplace allowed me to explore a wide range of techn
 
 <br><br>
 
+
+
 ### Personal Growth
 This project not only expanded my technical expertise but also taught me the importance of balancing functionality with user experience. By addressing real-world challenges such as outdated manual systems and limited market reach, I realized the transformative impact technology can have on traditional businesses. CraftMart was an excellent opportunity to merge creativity with innovation to build a platform that promotes Sri Lankan craftsmanship on a global stage.
+
+
+
+<br><br>
+
+## Related
+
+<br>
+
+Here are some related projects
+
+[FeedBackManagement-CreaftMart-Mern](https://github.com/Sanil-Sandeep/Feedback-Management-CraftMart-MERN.git) 
+<br>
+[PaymentManagement-CreaftMart-Mern](https://github.com/Sanil-Sandeep/PaymentManagement-CraftMart-Mern.git)
